@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, white,#73ade8);
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sla{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.login{
+    height: 50px;
+    width: 390px;
+    /*Bordas*/
+    display: flex;
+    border-radius: 5px;
+    border-top: 70px;
+    margin: 70px 40px 30px 40px;
+    border-color: grey;
+    font-size: 17px;
+    cursor: text;
+    border: 1px solid rgb(185, 184, 184);
+}
+.senha{
+    height: 50px;
+    width: 390px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid rgba(192, 192, 192, 0.4);
+    margin-left: 40px;
+    border-color: grey;
+    font-size: 17px;
+}
+.msn{
+    font-size: 40px;
+    font-weight: 10;
+    margin-top: 0px;
+    margin-left: 180px;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+.logo{
+    height: 300px;
+    width: 300px;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.fundo{
+    height: 420px;
+    background-color: white;
+    margin-right: 80px;
+    border-radius: 7px;
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    display: flex;
+    flex-direction: column;
+}
+.entrar{
+    height: 40px;
+    width: 390px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: #1577da;
+    border-radius: 7px;
+    border: none;
+}
+.entrar:hover{
+    background-color: #1064b8;
+    cursor: pointer;
+}
+.ES{
+    font-weight: 10;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    color: rgb(24, 24, 24);
+    border-color: 1px solid rgb(214, 214, 214);
+    text-align: center;
+    margin-top: 10px;
+}
+.criar{
+    height: 40px;
+    width: 390px;
+    margin-left: 40px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+    background-color: #1a9c46;
+    border-radius: 7px;
+    border: none;
+}
+.criar:hover{
+    background-color: #11642d;
+    cursor: pointer;
+}
+.linha{
+    width: 92%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
